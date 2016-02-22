@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers js:babel-register",
   },
   "author": "Will Acton",
   "license": "MIT",
@@ -13,7 +13,9 @@
     "babel-loader": "^6.2.3",
     "babel-preset-es2015": "^6.5.0",
     "babel-preset-react": "^6.5.0",
+    "babel-register": "^6.5.2",
     "eslint": "^2.2.0",
+    "mocha": "^2.4.5",
     "webpack": "^2.1.0-beta.2"
   }
 }
